@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-color: #FF80AB;
+    color: white;
+}
+
+#hobby {
+    font-size: 30px;
+}
+
+#dance {
+    font-size: 25px;
+}
+
+#paragraph {
+    font-size: 25px;
+}
+
+#image {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.menu {
+    z-index: 10;
+    position: fixed;
+    top: 0px;
+    list-style: none;
+    padding-left: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.link {
+    padding: 9px;
+    font-size: 20px;
+    display: inline;
+    text-decoration: underline;
+    text-shadow: 2px 2px gainsboro;
+}
+section:hover{
+    text-decoration: underline;
+    background-color: blue;
+    font-size: 20px;
+}
+html{
+    text-align: center;
+}
